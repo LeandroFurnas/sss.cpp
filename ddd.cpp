@@ -14,22 +14,22 @@ void compra(int opc, float &cred, int &stock) {
     cout << "\nEscolheste ";
     switch (opc) {
             case 1: cout << "o Pãozinho"; 
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;          
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;          
         break;
             case 2: cout << "o Leite"; 
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;
         break;
             case 3: cout << "a Água";
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;
          break;
             case 4: cout << "a Manteiga"; 
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;
         break;
             case 5: cout << "a Gelatina"; 
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;
         break;
             case 6: cout << "os Crepes"; 
-            cout <<" Temos " << stockArray[opc] << " unidades restantes " << endl;
+            cout <<" Temos " << stockArray[opc] << " unidades restantes do mesmo/a." << endl;
         break;
 
 
@@ -53,9 +53,6 @@ void compra(int opc, float &cred, int &stock) {
 
         } else {
             cout << "Saldo insuficiente! Tens apenas $" << cred << endl;
-
-
-
         }
     } else {
         cout << "Compra cancelada.\n";
